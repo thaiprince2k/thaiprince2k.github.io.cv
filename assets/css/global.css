@@ -1,0 +1,167 @@
+body {
+    background: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background: white;
+    width: 850px;
+    margin: 50px auto;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 600;
+    padding-bottom: 7px;
+
+}
+
+.header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.header .img-thum {
+    width: 140px;
+    border: 4px solid #007457;
+    margin-left: 40px;
+}
+
+.header .img-thum img {
+    width: 130px;
+    padding: 13px;
+    position: relative;
+    z-index: 1000;
+}
+
+.wp-line {
+    position: relative;
+}
+
+.line-left {
+    width: 50px;
+}
+
+.line-right {
+    width: 681px;
+    right: 0px;
+}
+
+.wp-line .line-left,
+.line-right {
+    top: 78px;
+    background: #007457;
+    height: 40px;
+    position: absolute;
+}
+
+/* /////////////// content ///////////////// */
+.sidebar-left {
+    padding: 15px 0px;
+}
+
+.sidebar-left h3.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 14px;
+    color: #007457;
+}
+
+.sidebar-left .info-basic {
+    margin-bottom: 20px;
+}
+
+.sidebar-left .info-basic .icon {
+    padding-bottom: 8px;
+}
+
+.sidebar-left .info-basic .icon i {
+    font-size: 12px;
+    color: white;
+    background: black;
+    width: 26px;
+    border-radius: 20px;
+    height: 26px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.sidebar-left .info-basic .icon span {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.sidebar-left .storie-of-program p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.sidebar-left .target p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.sidebar-left .skills p.name-skill {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.sidebar-left .progress {
+    height: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: black !important;
+    transition: width .6s ease;
+    max-width: 100%;
+}
+
+.sidebar-left .interest {
+    margin-top: 20px;
+}
+
+.sidebar-right {
+    background: #E6FFF9;
+    padding: 15px 10px;
+}
+
+.sidebar-right h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 7px;
+    color: #007457;
+}
+
+.sidebar-right h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.sidebar-right p {
+    font-size: 14px;
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width:600px) {
+    .header .img-thum img {
+        width: 130px;
+        padding: 13px;
+        position: relative;
+        z-index: 1000;
+        display: none !important;
+    }
+
+    .header .img-thum {
+        width: 140px;
+        border: 4px solid #007457;
+        margin-left: 40px;
+        display: none !important;
+    }
+
+    .wp-line .line-left {
+        top: 78px;
+        background: #007457;
+        height: 40px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .wp-line .line-right {
+        display: none;
+    }
+}
